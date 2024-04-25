@@ -7,7 +7,6 @@ const app = express();
 const socket = require("socket.io");
 require("dotenv").config();
 const path=require('path');
-const {fileURLToPath}=require('url');
 
 app.use(cors());
 app.use(express.json());
